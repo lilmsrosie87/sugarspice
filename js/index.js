@@ -13,3 +13,6 @@ if (hourNow > 18) {
 }
 
 document.write('<h1>' + greeting + '</h1>');
+
+function myFunction() {
+    alert("I am an alert box!");
