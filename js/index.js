@@ -1,18 +1,7 @@
-var today = new Date();
-var hourNow = today.getHours();
-var greeting; 
+var greeting = 'Bem-vindo';
+var name = 'beautiful';
 
-if (hourNow > 18) {
-	greeting = 'Good evening!';
-} else if (hourNow > 12) {
-	greeting = 'Good afternoon!';
-} else if (hourNow > 0) {
-	greeting = 'Good morning!';
-} else{
-	greeting = 'Welcome';
-}
+var welcomeMessage = greeting + name + '!';
 
-document.write('<h1>' + greeting + '</h1>');
-
-function myFunction() {
-    alert("I am an alert box!");
+var el = document.getElementById('greeting');
+el.
