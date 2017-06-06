@@ -22,7 +22,7 @@ li {
 }
 
 .container {
-	border: 2px solid white;
+	border: 2px double white;
 	padding-top: 50px;
     padding-right: 30px;
     padding-bottom: 50px;
@@ -30,4 +30,5 @@ li {
 	text-align: center;
 	
 }
+
 
