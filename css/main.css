@@ -4,8 +4,12 @@ body {
 	
 }
 
+
+
 h1 {
     background-color: #ff99ff;
+	font-size: 500%;
+	font-weight: 900;
 }
 
 li {
